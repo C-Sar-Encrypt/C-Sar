@@ -12,6 +12,9 @@ function App() {
           <div><button name="decrypt" className="button">Descifrar</button></div>
         </section>
       </header>
+      <section className="App-Base">
+        <h3>Paula Guzman y Esteban Umbarila</h3>
+      </section>
     </div>
   );
 }

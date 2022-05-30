@@ -4,7 +4,7 @@
 
 .App-header {
   background: linear-gradient(157deg, #30ADE6 0%, #C1227B 100%);
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,7 @@
   justify-content: center;
   font-size: calc(30px + 2vmin);
   color: white;
-}
+} 
 
 .App-Title{
   font: normal 16px/1 "Creattion Demo", cursive, sans-serif;
@@ -27,8 +27,13 @@
   font-size: calc(100px + 2vmin);
 }
 
+.App-Base{
+  font: normal 16px/1 "Creattion Demo", cursive, sans-serif;
+  color: #C1227B;
+  font-size: calc(10px + 2vmin);
+}
+
 .App-buttons{
-  min-height: 20vh;
   align-items: center;
   justify-content: center;
   display: grid;
@@ -38,18 +43,19 @@
 }
 
 .button {
+  background: linear-gradient(157deg, #30ADE6 0%, #C1227B 100%);
   min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(20px + 2vmin);
-  color: #000000;
+  color: #FFFFFF;
   box-shadow:
    -7px -7px 20px 0px #fff9,
    -4px -4px 5px 0px #fff9,
    7px 7px 20px 0px #0002,
    4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
-  border: 5px double #C1227B;
+  border: 5px double #FFFFFF;
   border-radius: 30px;
 }
