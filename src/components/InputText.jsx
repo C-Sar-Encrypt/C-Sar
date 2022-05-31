@@ -7,7 +7,7 @@ export default function InputText({
     return(
         <div className="div1">
             <input
-                type="password"
+                type="text"
                 className="Input-Box"
                 value={text}
                 onChange={(e) => setText(e.target.value)}

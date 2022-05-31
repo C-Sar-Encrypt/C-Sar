@@ -8,7 +8,7 @@ export default function Base() {
     const [text, setText] = useState('');
     const [rotation, setRotation] = useState(3);
     const [language, setLanguage] = useState('eng');
-    const [output, setOutput] = useState('');
+    const [output, setOutput] = useState('Encrypt or Decrypt your messages!');
 
     useEffect(() => console.log({
         output

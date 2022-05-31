@@ -18,7 +18,7 @@ export const encrypt = (
     })
         .then((response) => response.json())
         .then((result) => {
-            resolve(result.encrypt);
+            return ('encrypt' in result) ? resolve(result.encrypt) : reject(result.error)
         })
         .catch(reject);
 });
