@@ -2,9 +2,13 @@
   text-align: center;
 }
 
+.Href{
+  text-decoration: none;
+}
+
 .App-header {
   background: linear-gradient(157deg, #30ADE6 0%, #C1227B 100%);
-  min-height: 10vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,19 +25,104 @@
   color: white;
 } 
 
+.App-Box {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 50vh;
+  width: 150vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 0px 9px 9px 6px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 5fr;
+} 
+
+.div1 { grid-area: 1 / 1 / 2 / 4; }
+.div2 { grid-area: 1 / 4 / 2 / 5; }
+.div3 { grid-area: 1 / 5 / 2 / 6; }
+.div4 { grid-area: 2 / 1 / 3 / 6; }
+
+.Input-Box {
+  opacity: 1 ;
+  background: linear-gradient(157deg, #30ADE6 0%, #C1227B 100%);
+  color:#FFFFFF;
+  height: 5vh;
+  width: 110vh;
+  margin-left: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px; 
+}
+
+.Input-Language {
+  opacity: 1 ;
+  background: linear-gradient(157deg, #30ADE6 0%, #C1227B 100%);
+  color:#FFFFFF;
+  height: 5.5vh;
+  width: 20vh;
+  margin-left: -5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Input-Rot {
+  opacity: 1 ;
+  background: linear-gradient(157deg, #30ADE6 0%, #C1227B 100%);
+  color:#FFFFFF;
+  height: 5vh;
+  width: 5vh;
+  margin-left: 35vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Option{
+  color:#C1227B;
+}
+
+.Output-Text{
+  font: normal 12px/1 "Arial", cursive, sans-serif;
+  color: #ffffff;
+  font-size: calc(7px + 2vmin);
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 35vh;
+  width: 145vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  grid-area: 2 / 1 / 3 / 6; 
+  margin-bottom: 2vh;
+  margin-left: 2vh;
+  word-break: break-word;
+}
+
 .App-Title{
   font: normal 16px/1 "Creattion Demo", cursive, sans-serif;
   color: white;
-  font-size: calc(100px + 2vmin);
+  font-size: calc(100px + 0vmin);
 }
 
 .App-Base{
   font: normal 16px/1 "Creattion Demo", cursive, sans-serif;
   color: #C1227B;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(30px + 2vmin);
 }
 
 .App-buttons{
+  height: 20vh;
   align-items: center;
   justify-content: center;
   display: grid;
@@ -51,8 +140,8 @@
   font-size: calc(20px + 2vmin);
   color: #FFFFFF;
   box-shadow:
-   -7px -7px 20px 0px #fff9,
-   -4px -4px 5px 0px #fff9,
+   -7px -7px 20px 0px #0002,
+   -4px -4px 5px 0px #0002,
    7px 7px 20px 0px #0002,
    4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
