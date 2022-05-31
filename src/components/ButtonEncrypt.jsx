@@ -1,4 +1,3 @@
-import {useState, useEffect} from 'react';
 import { encrypt } from '../helpers/encrypt'
 
 export default function ButtonEncrypt({
@@ -15,7 +14,7 @@ export default function ButtonEncrypt({
 
     return (
         <div>
-            <button name="encrypt" className="button" onClick={onClickEncript}>Encrypt</button>
+            <button className="button" onClick={onClickEncript}>Encrypt</button>
         </div>
     );
 }

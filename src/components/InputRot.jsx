@@ -7,7 +7,6 @@ export default function InputRot({
             <input
                 type="number"
                 className="Input-Rot"
-                name="inputRot"
                 value={rotation}
                 onChange={(e) => setRotation(Number(e.target.value))}
                 required

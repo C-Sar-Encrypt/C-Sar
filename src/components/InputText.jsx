@@ -9,7 +9,6 @@ export default function InputText({
             <input
                 type="password"
                 className="Input-Box"
-                name="inputText"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 required
