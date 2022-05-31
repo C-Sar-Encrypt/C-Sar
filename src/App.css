@@ -99,13 +99,16 @@
   background-color: rgba(255, 255, 255, 0.2);
   height: 35vh;
   width: 145vh;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   border-radius: 50px;
-  grid-area: 2 / 1 / 3 / 6; 
   margin-bottom: 2vh;
   margin-left: 2vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Output-Text > span {
   word-break: break-word;
 }
 
@@ -147,4 +150,8 @@
   transition: all 0.3s ease;
   border: 5px double #FFFFFF;
   border-radius: 30px;
+}
+
+button {
+  cursor: pointer;
 }

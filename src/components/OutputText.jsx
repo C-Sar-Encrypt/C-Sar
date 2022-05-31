@@ -1,7 +1,11 @@
-export default function OutputText(props){
+import { useEffect } from "react"
+
+export default function OutputText({output}){
     return(
         <div className="div4">
-            <p className="Output-Text" name="outputText" value={props.output}></p>
+            <div className="Output-Text">
+                <span>{output}</span>
+            </div>
         </div>
     )
 }
