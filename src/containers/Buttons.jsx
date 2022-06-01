@@ -16,7 +16,12 @@ export default function Buttons({
                     language={language}
                     setOutput={setOutput}
                 />
-                <ButtonDecrypt />
+                <ButtonDecrypt
+                    text={text}
+                    rotation={rotation}
+                    language={language}
+                    setOutput={setOutput}
+                />
             </section>
         </div>
     )
